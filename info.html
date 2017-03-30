@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rodrigo Turismo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: gray;
+      /*color: white;*/
+    }
+    
+   
+    footer {
+      background-color: #2E2D88;
+      color: white;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 80%; 
+      margin: auto;
+      min-height:200px;
+  }
+
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+  #border-image{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 280px;
+    height: 350px;
+  }
+
+  #contatos > p{
+    display: inline;
+  }
+
+  #contatos > ul > li{
+    display: inline-block;
+  }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="principal.html">Home</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+   
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+   
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="image/praia-sls.jpg">
+        <div class="carousel-caption">
+          <h3>Praia da Barrinha</h3>
+          <p>Seitan iceland ennui, tattooed hashtag kickstarter chartreuse aesthetic literally cliche organic pour-over.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="image/praia-das-nereidas.jpg">
+        <div class="carousel-caption">
+          <h3>Praia das Nereidas</h3>
+          <p>Chambray gentrify unicorn, shabby chic humblebrag meh umami yr vaporware chia letterpress.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="image/museu-historico-municipal.jpg">
+        <div class="carousel-caption">
+          <h3>Museu Histórico Municipal</h3>
+          <p>Chambray gentrify unicorn, shabby chic humblebrag meh umami yr vaporware chia letterpress. </p>
+        </div>      
+      </div>
+    </div>
+
+    
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div><br><br>
+
+  
+<div class="container text-center">    
+  <p>As águas calmas da Lagoa dos Patos formam agradáveis praias em São Lourenço do Sul. Em Ondinas, contornada por figueiras e pedras, o público é formado por famílias com crianças; enquanto Nereidas reúne os jovens em busca de esportes náuticos. Já Barrinha, a maior de todas, é frequentada por turistas.
+
+  As tradições fazem parte da paisagem da bucólica cidade. Um passeio às margens do rio São Lourenço, que atravessa quase todo o município, apresenta os muitos estaleiros usados para a construção de barcos artesanais, utilizados para pesca e também para tours especiais como o Caminho Farroupilha. 
+
+  O roteiro tem como pano de fundo os cenários da batalha travada entre os gaúchos - liderados por Bento Gonçalves - e o governo imperial, entre 1835 e 1845. O passeio inclui uma visita à Fazenda do Sobrado, construção do século 19 usada como quartel-general da Revolução Farroupilha.</p>
+</div><hr>
+
+<div class="well">
+  <p>Roteiro:</p>
+  <ul>
+    <li>8:00 Café da manhã no restaurante beira de estrada</li>
+    <li>8:30 Visita ao museu</li>
+    <li>9:00 Deslocamento para o camping</li>
+    <li>12:30 Almoço no restaurante Beira de Estrada</li>
+    <li>13:30 Visitação a Fazenda do Sobrado</li>
+    <li>18:00 Retorno para Cerrito</li>
+  </ul>
+</div>
+
+  <a href="principal.html"><button type="btn btn-sm">Voltar</button></a>
+
+<footer class="container-fluid text-center">
+  <p>Iceland hell of mixtape taxidermy. Paleo celiac kale chips, quinoa twee bushwick poke tilde typewriter pop-up williamsburg photo booth. 2017</p>
+    
+
+  <div id="contatos">
+  <ul>
+    <li>Entre em contato com a gente:</li>
+    <li><span id="contato" class="glyphicon glyphicon-earphone"><a href="tel:53991910000">(53)99191-0000  </span></a></li>
+    <li><span class="glyphicon glyphicon-envelope"><a href="mailto:email@contato.com">rodrigo@turismo.com  </span></a></li>
+    <li><span class="glyphicon glyphicon-thumbs-up"><a href="http://www.facebook.com/rodrigoexcursoescerrito">Facebook </a> </span></li>
+  </ul>
+  </div>
+
+</footer>
+
+</body>
+</html>
