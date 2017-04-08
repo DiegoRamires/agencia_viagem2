@@ -1,7 +1,12 @@
 body{
-  width: 960px;
-  background-color: red;
+  /*width: 960px;*/
+  /*background-color: red;*/
   margin: 0 auto;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
 }
 
 .navbar {
@@ -11,11 +16,9 @@ body{
   color: white;
 }
 
-  footer {
-    background-color: #2E2D88;
-    color: white;
-    padding: 25px;
-  }
+#myNavbar {
+  padding-left: 250px
+}
 
 .carousel-inner img {
     /*width: 80%;*/
@@ -24,6 +27,25 @@ body{
     max-height: 600px;
 }
 
+#img-carousel {
+  height: 500px;
+  width: 880px;
+}
+
+
+/* tentativa de mover os indicadores de imagem do carrousel para baixo da imagem*/
+/*#myCarousel {
+  height: 700px
+}
+.carousel-indicators {
+  bottom:-50px;
+}
+.carousel-inner {
+   margin-bottom:50px;
+}
+*/
+
+
 @media (max-width: 600px) {
   .carousel-caption {
     display: none;
@@ -31,12 +53,24 @@ body{
 }
 
 #border-image{
-  border: 1px solid black;
-  border-radius: 5px;
-  /*width: 280px;*/
-  /*height: 350px;*/
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 280px;
+  height: 350px;
 }
 
-#contatos > p{
-  display: inline;
+.img-responsive {
+  width: 278px;
+  height: 200px;
+}
+
+#img-thumb {
+  width: 278px;
+  height: 200px;
+}
+
+footer {
+  background-color: #2E2D88;
+  color: white;
+  padding: 25px;
 }
